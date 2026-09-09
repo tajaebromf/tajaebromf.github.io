@@ -23,7 +23,7 @@ export const site: SiteConfig = {
   name: "Tajae Bromfield",
   role: "Software Engineer",
   tagline:
-    "Full-stack developer building mobile and web products, with a focus on Python, TypeScript, and AI-backed tooling.",
+    "I build software that makes things easier for the person on the other end.",
   location: "Fort Myers, FL",
   email: "TajaeBromfield2004@gmail.com",
   github: "https://github.com/tajaebromf",

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tajaebromf.github.io/sitemap.xml
