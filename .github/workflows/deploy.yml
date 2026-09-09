@@ -31,7 +31,11 @@ jobs:
 
       - run: npm run build
 
+      # enablement: true turns Pages on automatically if it isn't already,
+      # so the first deploy doesn't need the setting flipped by hand.
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       # next.config.ts sets output: "export", so the site lands in ./out
       - uses: actions/upload-pages-artifact@v3
